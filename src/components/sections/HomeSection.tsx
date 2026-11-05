@@ -1,11 +1,6 @@
-import { ArrowDown, Scale } from "lucide-react";
+import { Scale } from "lucide-react";
 
 export const HomeSection = () => {
-  const handleScrollDown = () => {
-    const element = document.querySelector("#contact");
-    element?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section
       id="home"
@@ -38,14 +33,6 @@ export const HomeSection = () => {
               </div>
             </div>
           </div>
-
-          <button
-            onClick={handleScrollDown}
-            className="mt-14 inline-flex items-center gap-3 rounded-full border border-foreground/10 bg-foreground px-5 py-3 font-semibold text-background transition hover:-translate-y-0.5 hover:bg-accent hover:text-accent-foreground"
-          >
-            Kontakt
-            <ArrowDown className="h-4 w-4" />
-          </button>
         </div>
       </div>
     </section>
