@@ -33,7 +33,7 @@ export const Impressum = () => {
             <h2 className="font-display text-3xl text-accent mb-6">KONTAKT</h2>
             <p className="mb-4">
               Telefon: +49 7152 3834605<br />
-              E-Mail: <a href="mailto:info@conradt.io" className="text-accent hover:underline">info@conradt.io</a>
+              E-Mail: <a href="mailto:info@conradt.de" className="text-accent hover:underline">info@conradt.de</a>
             </p>
           </section>
 

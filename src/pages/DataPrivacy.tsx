@@ -102,7 +102,7 @@ export const DataPrivacy = () => {
             </p>
             <p className="mb-4">
               Telefon: +49 7152 3834605<br />
-              E-Mail: info@conradt.io
+              E-Mail: info@conradt.de
             </p>
             <p className="mb-4">
               Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.

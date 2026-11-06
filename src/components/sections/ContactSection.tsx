@@ -22,12 +22,12 @@ export const ContactSection = () => {
               </div>
 
               <a
-                href="mailto:info@conradt.io"
+                href="mailto:info@conradt.de"
                 className="group flex items-center gap-4 transition-colors hover:text-accent"
               >
                 <Mail className="h-6 w-6 flex-shrink-0 text-accent" />
                 <span className="text-lg text-foreground/75 transition-colors group-hover:text-accent">
-                  info@conradt.io
+                  info@conradt.de
                 </span>
                 <ExternalLink className="h-4 w-4 text-accent opacity-0 transition-opacity group-hover:opacity-100" />
               </a>
@@ -47,7 +47,7 @@ export const ContactSection = () => {
 
           <div className="flex items-center justify-center md:justify-end">
             <a
-              href="mailto:info@conradt.io"
+              href="mailto:info@conradt.de"
               className="group inline-flex items-center gap-4 rounded-full border border-foreground/10 bg-foreground px-10 py-5 text-lg font-semibold text-background transition-all duration-300 hover:-translate-y-0.5 hover:bg-accent hover:text-accent-foreground"
             >
               <Mail className="h-6 w-6 transition-transform group-hover:scale-110" />
