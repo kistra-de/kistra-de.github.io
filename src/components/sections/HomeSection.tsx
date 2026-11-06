@@ -22,8 +22,11 @@ export const HomeSection = () => {
           <div className="space-y-12">
             <div>
               <p className="mb-6 font-mono text-sm uppercase tracking-[0.4em] text-accent/90">KISTRA</p>
-              <h1 className="max-w-4xl text-[clamp(3rem,9vw,7.5rem)] font-black leading-[0.92] tracking-[-0.075em] text-foreground">
-                KI für Steuerberater und Rechtsanwälte
+              <h1 className="group max-w-4xl text-[clamp(3rem,8vw,6.75rem)] font-semibold leading-[1.02] tracking-[-0.045em] text-foreground">
+                <span className="transition-colors duration-300 group-hover:text-accent">KI</span> für{" "}
+                <span className="transition-colors duration-300 group-hover:text-accent">St</span>euerberater und{" "}
+                <span className="transition-colors duration-300 group-hover:text-accent">R</span>echts
+                <span className="transition-colors duration-300 group-hover:text-accent">a</span>nwälte
               </h1>
               <p className="mt-10 max-w-3xl text-lg leading-8 text-foreground/72 md:text-xl">
                 KISTRA entsteht für den sicheren, nachvollziehbaren Einsatz von KI in Kanzleien.
