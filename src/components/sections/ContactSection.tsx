@@ -17,7 +17,7 @@ export const ContactSection = () => {
               <div className="flex items-center gap-4 group">
                 <MapPin className="h-6 w-6 flex-shrink-0 text-accent" />
                 <span className="text-lg text-foreground/75">
-                  Greater Stuttgart area incl. Leonberg and Gerlingen
+                  Stuttgart und Umgebung (Leonberg, Gerlingen)
                 </span>
               </div>
 
